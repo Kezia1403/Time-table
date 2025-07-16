@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3th Semester Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: azure;
+      text-align: center;
+    }
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px aqua;
+    }
+    th, td {
+      border: 1px solid #888888e8;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #e6f7ff;
+    }
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+    .break {
+      background-color: #ffebcc;
+      font-weight: bold;
+    }
+    caption {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>3th Semester Timetable</caption>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+    <tr>
+      <td>9:00 - 10:00</td>
+      <td>MDS</td>
+      <td>DBMS</td>
+      <td rowspan="2">WT</td>
+      <td>MDM-I</td>
+      <td>DSW</td>
+      <td>MDS</td>
+    </tr>
+    <tr>
+      <td>10:00 - 11:00</td>
+      <td>DBMS</td>
+      <td>CAO</td>
+      <td>DBMS</td>
+      <td>DSW-II</td>
+      <td>CAO</td>
+    </tr>
+    <tr class="break">
+      <td>11:00 - 11:15</td>
+      <td colspan="6">Short Break</td>
+    </tr>
+    <tr>
+      <td>11:15 - 12:15</td>
+      <td>CAO</td>
+      <td>DBMS</td>
+      <td rowspan="2">DAIOT</td>
+      <td rowspan="2">WT</td>
+      <td rowspan="2">DBMS</td>
+      <td>DBMS/DAIOT/WT/DSW-II</td>
+    </tr>
+    <tr>
+      <td>12:15 - 1:15</td>
+      <td>VED </td>
+      <td>MDS</td>
+      <td>DBMS/DAIOT/WT/DSW-II</td>
+    </tr>
+    <tr class="break">
+      <td>1:15 - 2:15</td>
+      <td colspan="6">Lunch Break</td>
+    </tr>
+    <tr>
+      <td>2:15 - 3:15</td>
+      <td rowspan="2">Micro project </td>
+      <td rowspan="2"> DSW-II</td>
+      <td> Aptitude</td>
+      <td>CDC</td>
+      <td>CAO</td>
+      <td rowspan="2">Co-curricular Activity</td>
+    </tr>
+     <td>3:15 - 4:15</td>
+      <td>MDS</td>
+      <td>VED</td>
+      <td>VED</td>
+    </tr>
+  </table>
+
+</body>
+</html>
